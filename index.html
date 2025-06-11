@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Hotel</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#book" class="btn-book">Book Now</a></li>
+            </ul>
+            <div class="menu-toggle">   
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Hotel</h1>
+            <p>Experience the ultimate comfort and luxury in our 5-star accommodation</p>
+            <div class="hero-buttons">
+                <a href="#rooms" class="btn-primary">
+                    <i class="fas fa-bed"></i>
+                    View Our Rooms
+                </a>
+                <a href="#contact" class="btn-secondary">
+                    <i class="fas fa-phone"></i>
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="rooms" class="rooms">
+        <h2>Our Rooms</h2>
+        <div class="room-grid">
+            <div class="room-card">
+                <img src="https://source.unsplash.com/800x600/?hotel-deluxe" alt="Deluxe Room">
+                <h3>Deluxe Room</h3>
+                <p>Spacious and comfortable with city view. Features include king-size bed, marble bathroom, and complimentary Wi-Fi.</p>
+                <span class="price">$150/night</span>
+                <ul class="room-features">
+                    <li><i class="fas fa-wifi"></i> Free Wi-Fi</li>
+                    <li><i class="fas fa-tv"></i> Smart TV</li>
+                    <li><i class="fas fa-bath"></i> Marble Bathroom</li>
+                    <li><i class="fas fa-coffee"></i> Coffee Maker</li>
+                </ul>
+            </div>
+            <div class="room-card">
+                <img src="https://source.unsplash.com/800x600/?hotel-suite" alt="Suite">
+                <h3>Executive Suite</h3>
+                <p>Luxurious accommodation with private balcony and stunning views. Perfect for business travelers or extended stays.</p>
+                <span class="price">$250/night</span>
+                <ul class="room-features">
+                    <li><i class="fas fa-balcony"></i> Private Balcony</li>
+                    <li><i class="fas fa-glass-cheers"></i> Mini Bar</li>
+                    <li><i class="fas fa-bath"></i> Jacuzzi</li>
+                    <li><i class="fas fa-laptop"></i> Work Desk</li>
+                </ul>
+            </div>
+            <div class="room-card">
+                <img src="https://source.unsplash.com/800x600/?hotel-family" alt="Family Room">
+                <h3>Family Suite</h3>
+                <p>Ideal for families with two bedrooms, separate living area, and kitchenette. Sleeps up to 4 guests comfortably.</p>
+                <span class="price">$180/night</span>
+                <ul class="room-features">
+                    <li><i class="fas fa-bed"></i> 2 Bedrooms</li>
+                    <li><i class="fas fa-soap"></i> 2 Bathrooms</li>
+                    <li><i class="fas fa-utensils"></i> Kitchenette</li>
+                    <li><i class="fas fa-sofa"></i> Living Room</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="amenities" class="amenities">
+        <h2>Our Amenities</h2>
+        <div class="amenities-grid">
+            <div class="amenity-card">
+                <img src="https://source.unsplash.com/800x600/?hotel-pool" alt="Swimming Pool">
+                <h3>Infinity Pool</h3>
+                <p>Relax in our outdoor infinity pool with stunning city views. Open 24/7 with dedicated lifeguards.</p>
+            </div>
+            <div class="amenity-card">
+                <img src="https://source.unsplash.com/800x600/?hotel-restaurant" alt="Restaurant">
+                <h3>Gourmet Restaurant</h3>
+                <p>Experience world-class dining with our Michelin-starred chef's creations. Open for breakfast, lunch, and dinner.</p>
+            </div>
+            <div class="amenity-card">
+                <img src="https://source.unsplash.com/800x600/?hotel-gym" alt="Fitness Center">
+                <h3>Fitness Center</h3>
+                <p>State-of-the-art gym facilities with personal trainers available. Open 24/7 with modern equipment.</p>
+            </div>
+            <div class="amenity-card">
+                <img src="https://source.unsplash.com/800x600/?hotel-spa" alt="Spa">
+                <h3>Spa & Wellness</h3>
+                <p>Indulge in relaxation and wellness treatments. Our spa offers a range of services from massages to beauty treatments.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-row">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Luxury Avenue, New York, NY 10001, United States</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+1 (212) 555-0123 | +1 (212) 555-0124 (Fax)</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@luxuryhotel.com | reservations@luxuryhotel.com</p>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <div id="map" class="map-placeholder">
+                        <div class="map-overlay">
+                            <h3>Hotel Location</h3>
+                            <p>123 Luxury Avenue, New York, NY</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form id="contact-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number">
+                <select>
+                    <option value="">Inquiry Type</option>
+                    <option value="booking">Booking Inquiry</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="complaint">Complaint</option>
+                    <option value="other">Other</option>
+                </select>
+                <textarea placeholder="Your Message" required></textarea>
+                <div class="form-footer">
+                    <div class="checkbox">
+                        <input type="checkbox" id="subscribe">
+                        <label for="subscribe">Subscribe to our newsletter</label>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Welcome to Luxury Hotel, where excellence meets comfort. Since 1995, we've been providing exceptional service and unforgettable experiences for our guests.</p>
+                <p><strong>Awards:</strong> 5-star rating, AAA Diamond Award, TripAdvisor Certificate of Excellence</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#amenities">Amenities</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#">Special Offers</a></li>
+                    <li><a href="#">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <p>Subscribe to our newsletter for exclusive offers and updates</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Luxury Hotel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
